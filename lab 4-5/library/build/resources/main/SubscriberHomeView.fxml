@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="339.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SubscriberHomeController">
+    <children>
+        <TableView layoutX="14.0" layoutY="40.0" prefHeight="265.0" prefWidth="227.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Title" />
+                <TableColumn prefWidth="75.0" text="Author" />
+                <TableColumn prefWidth="75.0" text="Exemplars" />
+            </columns>
+        </TableView>
+        <Button layoutX="269.0" layoutY="146.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" text="Borrow Books" />
+        <ComboBox layoutX="269.0" layoutY="195.0" prefHeight="25.0" prefWidth="147.0" promptText="FilterBy" />
+        <Button layoutX="269.0" layoutY="268.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" text="Filter" />
+        <TextField layoutX="269.0" layoutY="231.0" prefHeight="25.0" prefWidth="147.0" promptText="Filter String" />
+        <TableView layoutX="444.0" layoutY="40.0" prefHeight="265.0" prefWidth="227.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Title" />
+                <TableColumn prefWidth="75.0" text="Author" />
+                <TableColumn prefWidth="75.0" text="Exemplars" />
+            </columns>
+        </TableView>
+        <Label layoutX="103.0" layoutY="14.0" text="All Books" />
+        <Label layoutX="514.0" layoutY="14.0" text="Books To Borrow" />
+      <Button layoutX="269.0" layoutY="113.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" text="Remove Book From List" />
+      <Button layoutX="269.0" layoutY="81.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" text="Add Book To List" />
+    </children>
+</AnchorPane>

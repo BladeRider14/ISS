@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="339.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminHomeController">
+   <children>
+      <TableView fx:id="tableViewBooks" layoutX="14.0" layoutY="40.0" prefHeight="265.0" prefWidth="227.0">
+        <columns>
+          <TableColumn fx:id="columnTitle" prefWidth="75.0" text="Title" />
+          <TableColumn fx:id="columnAuthor" prefWidth="75.0" text="Author" />
+            <TableColumn fx:id="columnExemplars" prefWidth="75.0" text="Exemplars" />
+        </columns>
+      </TableView>
+      <Button fx:id="buttonAddBook" layoutX="282.0" layoutY="60.0" mnemonicParsing="false" onAction="#handleAddBook" prefHeight="25.0" prefWidth="120.0" text="Add Book" />
+      <Button fx:id="buttonUpdateBook" layoutX="282.0" layoutY="93.0" mnemonicParsing="false" onAction="#handleUpdateBook" prefHeight="25.0" prefWidth="120.0" text="Update Book" />
+      <Button fx:id="buttonDeleteBook" layoutX="282.0" layoutY="125.0" mnemonicParsing="false" onAction="#handleDeleteBook" prefHeight="25.0" prefWidth="120.0" text="Delete Book" />
+      <ComboBox layoutX="282.0" layoutY="193.0" prefHeight="25.0" prefWidth="120.0" promptText="FilterBy" />
+      <Button layoutX="282.0" layoutY="266.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Filter" />
+      <TextField layoutX="282.0" layoutY="229.0" prefHeight="25.0" prefWidth="120.0" promptText="Filter String" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,214 @@
+07 May 2023 18:46:00,348 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:/library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:46:00,351 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:/library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:46:02,358 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:46:02,358 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:46:02,359 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:46:02,359 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/library.db
+07 May 2023 18:46:02,359 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:46:02,368 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:46:02,464 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50982da6)
+07 May 2023 18:46:02,467 TRACE Persistence.UserDBRepo 38 findUserByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+07 May 2023 18:46:02,467 TRACE Persistence.UserDBRepo 40 findUserByUsername - Exit
+07 May 2023 18:46:24,237 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:46:24,240 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:46:26,150 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:46:26,150 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:46:26,150 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:46:26,150 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 18:46:26,151 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:46:26,151 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:46:26,251 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50875905)
+07 May 2023 18:46:26,254 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 18:47:02,822 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:../library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:47:02,825 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:../library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:47:04,470 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:47:04,470 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:47:04,470 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:47:04,470 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:../library.db
+07 May 2023 18:47:04,470 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:47:04,471 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:47:04,558 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50875905)
+07 May 2023 18:47:04,562 TRACE Persistence.UserDBRepo 38 findUserByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+07 May 2023 18:47:04,562 TRACE Persistence.UserDBRepo 40 findUserByUsername - Exit
+07 May 2023 18:47:22,717 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:/../library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:47:22,720 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:/../library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:47:24,509 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:47:24,509 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:47:24,509 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:47:24,509 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/../library.db
+07 May 2023 18:47:24,509 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:47:24,510 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:47:24,612 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50875905)
+07 May 2023 18:47:24,615 TRACE Persistence.UserDBRepo 38 findUserByUsername - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+07 May 2023 18:47:24,615 TRACE Persistence.UserDBRepo 40 findUserByUsername - Exit
+07 May 2023 18:47:37,589 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:47:37,592 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:47:39,230 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:47:39,230 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:47:39,230 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:47:39,230 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 18:47:39,231 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:47:39,231 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:47:39,330 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50875905)
+07 May 2023 18:47:39,333 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 18:50:14,833 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:50:14,836 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:50:17,476 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:50:17,477 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:50:17,477 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:50:17,477 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 18:50:17,477 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:50:17,477 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:50:17,585 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4301d661)
+07 May 2023 18:50:17,588 TRACE Persistence.UserDBRepo 37 findUserByUsername - Exit
+07 May 2023 18:50:51,271 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:50:51,274 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:50:53,829 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:50:53,829 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:50:53,829 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:50:53,829 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 18:50:53,830 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:50:53,830 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:50:53,916 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bf583ac)
+07 May 2023 18:50:53,919 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 18:51:33,722 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:51:33,724 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:51:36,342 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:51:36,342 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:51:36,342 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:51:36,342 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 18:51:36,343 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:51:36,343 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:51:36,440 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b0f4b9b)
+07 May 2023 18:51:36,443 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 18:52:25,904 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:52:25,907 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:52:27,910 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:52:27,910 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:52:27,910 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:52:27,910 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 18:52:27,910 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:52:27,911 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:52:28,001 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bf583ac)
+07 May 2023 18:52:28,005 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 18:53:39,131 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:53:39,134 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:53:40,573 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 18:53:40,573 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 18:53:40,574 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 18:53:40,574 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 18:53:40,574 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 18:53:40,574 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 18:53:40,669 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50875905)
+07 May 2023 18:53:40,672 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 18:58:41,522 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 18:58:41,525 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 19:00:00,837 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 19:00:00,837 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:00:00,838 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 19:00:00,838 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 19:00:00,838 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 19:00:00,838 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 19:00:00,936 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bf583ac)
+07 May 2023 19:00:00,938 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 19:00:21,179 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 19:00:21,182 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 19:00:23,420 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 19:00:23,420 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:00:23,420 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 19:00:23,420 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 19:00:23,420 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 19:00:23,420 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 19:00:23,516 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@19a616cd)
+07 May 2023 19:00:23,518 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 19:14:51,759 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 19:14:51,762 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 19:14:54,035 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 19:14:54,035 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:14:54,036 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 19:14:54,036 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 19:14:54,036 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 19:14:54,036 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 19:14:54,135 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bf583ac)
+07 May 2023 19:14:54,138 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 19:14:54,167 TRACE Persistence.BookDBRepo 94 getAll - Enter
+07 May 2023 19:14:54,167 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:14:54,167 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 19:14:54,167 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 19:14:54,167 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 19:14:54,167 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 19:14:54,168 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ed4fea0)
+07 May 2023 19:15:01,514 TRACE Persistence.BookDBRepo 45 delete - Enter
+07 May 2023 19:15:01,514 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:15:01,514 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ed4fea0)
+07 May 2023 19:15:01,532 TRACE Persistence.BookDBRepo 50 delete - Saved 1 instances
+07 May 2023 19:15:01,532 TRACE Persistence.BookDBRepo 54 delete - Exit
+07 May 2023 19:23:43,318 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 19:23:43,321 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+07 May 2023 19:23:45,986 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+07 May 2023 19:23:45,986 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:23:45,986 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 19:23:45,986 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 19:23:45,987 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 19:23:45,987 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 19:23:46,079 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7fd701dc)
+07 May 2023 19:23:46,083 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+07 May 2023 19:23:46,109 TRACE Persistence.BookDBRepo 94 getAll - Enter
+07 May 2023 19:23:46,109 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:23:46,109 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+07 May 2023 19:23:46,109 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+07 May 2023 19:23:46,110 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+07 May 2023 19:23:46,110 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+07 May 2023 19:23:46,110 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c5202d1)
+07 May 2023 19:24:00,881 TRACE Persistence.BookDBRepo 122 findBookByTitleAndAuthor - Enter
+07 May 2023 19:24:00,881 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:24:00,882 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c5202d1)
+07 May 2023 19:24:00,882 TRACE Persistence.BookDBRepo 29 add - Enter
+07 May 2023 19:24:00,882 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:24:00,882 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c5202d1)
+07 May 2023 19:24:00,891 TRACE Persistence.BookDBRepo 36 add - Saved 1 instances
+07 May 2023 19:24:00,891 TRACE Persistence.BookDBRepo 40 add - Exit
+07 May 2023 19:24:00,897 TRACE Persistence.BookDBRepo 94 getAll - Enter
+07 May 2023 19:24:00,898 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:24:00,898 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c5202d1)
+07 May 2023 19:24:15,225 TRACE Persistence.BookDBRepo 59 update - Enter
+07 May 2023 19:24:15,226 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:24:15,226 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c5202d1)
+07 May 2023 19:24:15,252 TRACE Persistence.BookDBRepo 67 update - Saved 1 instances
+07 May 2023 19:24:15,252 TRACE Persistence.BookDBRepo 71 update - Exit
+07 May 2023 19:24:15,257 TRACE Persistence.BookDBRepo 94 getAll - Enter
+07 May 2023 19:24:15,257 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:24:15,257 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c5202d1)
+07 May 2023 19:24:18,345 TRACE Persistence.BookDBRepo 45 delete - Enter
+07 May 2023 19:24:18,345 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+07 May 2023 19:24:18,345 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4c5202d1)
+07 May 2023 19:24:18,376 TRACE Persistence.BookDBRepo 50 delete - Saved 1 instances
+07 May 2023 19:24:18,376 TRACE Persistence.BookDBRepo 54 delete - Exit
+22 May 2023 14:23:16,687 INFO  Persistence.UserDBRepo 21 <init> - Initializing UserRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+22 May 2023 14:23:16,704 INFO  Persistence.BookDBRepo 22 <init> - Initializing BookDBRepo with properties {jdbc.url=jdbc:sqlite:library.db, jdbc.driver=org.sqlite.JDBC}
+22 May 2023 14:23:20,230 TRACE Persistence.UserDBRepo 27 findUserByUsername - Enter
+22 May 2023 14:23:20,231 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+22 May 2023 14:23:20,231 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+22 May 2023 14:23:20,231 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+22 May 2023 14:23:20,232 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+22 May 2023 14:23:20,232 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+22 May 2023 14:23:20,351 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@53881fc5)
+22 May 2023 14:23:20,353 TRACE Persistence.UserDBRepo 33 findUserByUsername - Exit
+22 May 2023 14:23:20,401 TRACE Persistence.BookDBRepo 94 getAll - Enter
+22 May 2023 14:23:20,402 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+22 May 2023 14:23:20,402 TRACE Persistence.JdbcUtils 25 getNewConnection - Enter
+22 May 2023 14:23:20,402 INFO  Persistence.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:library.db
+22 May 2023 14:23:20,402 INFO  Persistence.JdbcUtils 31 getNewConnection - user: null
+22 May 2023 14:23:20,402 INFO  Persistence.JdbcUtils 32 getNewConnection - pass: null
+22 May 2023 14:23:20,403 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c008fe6)
+22 May 2023 14:23:29,706 TRACE Persistence.BookDBRepo 122 findBookByTitleAndAuthor - Enter
+22 May 2023 14:23:29,707 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+22 May 2023 14:23:29,707 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c008fe6)
+22 May 2023 14:23:29,707 TRACE Persistence.BookDBRepo 29 add - Enter
+22 May 2023 14:23:29,707 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+22 May 2023 14:23:29,707 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c008fe6)
+22 May 2023 14:23:29,725 TRACE Persistence.BookDBRepo 36 add - Saved 1 instances
+22 May 2023 14:23:29,725 TRACE Persistence.BookDBRepo 40 add - Exit
+22 May 2023 14:23:29,731 TRACE Persistence.BookDBRepo 94 getAll - Enter
+22 May 2023 14:23:29,731 TRACE Persistence.JdbcUtils 48 getConnection - Enter
+22 May 2023 14:23:29,732 TRACE Persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c008fe6)
